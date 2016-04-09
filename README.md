@@ -1,25 +1,36 @@
-# Art Bots
-Robots that create art, i.e. art bots, is the topic of this repository. The first goal of the repository is to describe what an art bot is. The second goal is to share concrete software examples of art bots.
+# Art Robots
+Robots that create art, a.k.a. *art bots*, is the topic of this repository. The collection of text and code within serves to purposes: 
+
+* Describe what an art bot is
+* Share concrete software art bots.
 
 ## Taxonomy of Art Robots
 
-### The I/O bot
+### The artist robot
 
-The I/O bot takes input and produces art.
+A function that accepts input and produces art. The input ranges from nothing to everything.
 
 ```
              ┌─────────────┐             
              │             │             
- Input ─────▶│   I/O bot   │─────▶  Art  
+ Input ─────▶│ Artist Bot  │─────▶  Art  
              │             │             
              └─────────────┘             
 ```
 
 Variations on the theme:
 
-* *Stateless vs. stateful I/O bots*: The stateful I/O bot updates some internal state each time its function is called with input. The stateless I/O bot does not. 
-* Deterministic vs. probabilistic I/O bots: The deterministic I/O bot produces the same art given the same input, always. The probabilistic I/O bot might not.
+* *Stateless vs. stateful*: A stateful art bot updates some internal state each time its function is called with input. A stateless art bot does not. 
+* Deterministic vs. probabilistic: A deterministic art bot produces the same art given the same input, always. A probabilistic art bot might not.
 
-### The learning art robot
+### The learner robot
 
+A function that accepts input and produces an artist robot. The input must be something.
 
+```
+             ┌─────────────┐             
+             │             │             
+ Input ─────▶│ Learner Bot │─────▶  Artist Bot  
+             │             │             
+             └─────────────┘             
+```
