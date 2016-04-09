@@ -4,6 +4,8 @@ Here we will concern ourselves with robots that create art, a.k.a. *art bots*. W
 * Describe what an art bot is
 * Share concrete software examples of art bots.
 
+We will attempt to answer a well-thought-about philosophical question. Can machines create art without the aid of humans? Related work is algorithmic composition in music.
+
 ## A Taxonomy of Art Robots
 
 What is an art robot? Any good answer to that question will have some structure. Here the structure will be a taxonomy that will help us distinguish between different kinds of art robots.
