@@ -2,7 +2,7 @@
 Here we will concern ourselves with robots that create art, a.k.a. *art bots*. We will collect texts and code that serve two purposes: 
 
 * Describe what an art bot is
-* Share concrete software art bots.
+* Share concrete software examples of art bots.
 
 ## A Taxonomy of Art Robots
 
