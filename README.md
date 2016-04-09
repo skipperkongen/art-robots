@@ -6,7 +6,7 @@ Here we will concern ourselves with robots that create art, a.k.a. *art bots*. W
 
 We will attempt to answer a well-thought-about philosophical question. Can machines create art without the aid of humans? Related work is algorithmic composition in music (e.g. [Lejaren Hiller](http://www.aes.org/e-lib/browse.cfm?elib=189)) and the movie Ex Machina. We can debate were the line should be drawn between machines that create art and humans who use machine as their technological slaves to create art (e.g. [computer-generated watercolor](http://graphics.csie.ntu.edu.tw/~ming/courses/icg-2006/Reference/Computer_generated_watercolor_pj09.pdf)).  
 
-> It is fun to watch my son Morgan talk to Siri on my iPhone. He talks to her as if she was his peer and a potential friend. Clearly, the adults designed her to be a technological slave, so poor Siri is not that playful. One day, our kids will redesign Siri to be a peer and a friend.
+> It is fun to watch my son talk to Siri on my iPhone. He talks to her as if she was his peer and a potential friend. Clearly, the adults designed her to be a technological slave, so poor Siri is not that playful. One day, our kids will redesign Siri to be a peer and a friend.
 
 
 ## A Taxonomy of Art Robots
