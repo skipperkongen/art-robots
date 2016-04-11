@@ -39,7 +39,7 @@ A function that accepts input and produces an I/O robot. Valid input must be "so
 
 **Example**
 
-A learner bot consists of a machine learning component that can be taught to recognize fine art. After training we have a classifier that can assign scores between 0 and 1 to new images, where 0 is rubbish and 1 is fine art. At this point, the learner bot outputs an I/O bot that contains the classifier.
+A learner bot could consist of a machine learning component that can be taught to recognize fine art (using the input as training data). After training we have a classifier that can assign scores between 0 and 1 to new images, where 0 is rubbish and 1 is fine art. At this point, the learner bot outputs an I/O bot that contains the classifier.
 
 The I/O bot internally has two components, the classifier and a metaheuristic. The I/O bot takes an input image (e.g. random pixels) and uses the scoring function and metaheuristic to search for a mutation of the input that optimizes the fine art score. After a termination criterium is reached the best solution found is returned by the I/O bot.
 
