@@ -48,5 +48,5 @@ The I/O bot takes an input image (e.g. random pixels) and uses the scoring funct
 
 The taxonomy above is fairly open for interpretation. Below are some thematic variations on this non-sealed categorization. The variations apply to all categories.
 
-* *Stateless vs. stateful*: A stateful bot updates some internal state each time its function is called with input. A stateless art bot does not. 
-* Deterministic vs. probabilistic: A deterministic bot produces the same art given the same input, always. A probabilistic art bot might not.
+* **Stateless vs. stateful**: A stateful bot updates some internal state each time its function is called with input. A stateless art bot does not. 
+* **Deterministic vs. probabilistic**: A deterministic bot produces the same art given the same input, always. A probabilistic art bot might not.
