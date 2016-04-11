@@ -37,6 +37,11 @@ A function that accepts input and produces an I/O robot. Valid input must be "so
              └─────────────┘             
 ```
 
+*Example*
+
+A learner bot uses an internal machine learning component that is taught to recognize fine art (the input is used as training data). After training the machine learning component can assign scores between 0 and 1 to new images, where 0 is rubbish and 1 is fine art. At this point, the learner bot outputs an I/O bot. The I/O bot internally has two components. A scoring component which is the classifier that was taught and a metaheuristic algorithm that takes an input image (e.g. random pixels) uses the scoring function to search for a mutation of the input that optimizes the fine art score. After a termination criterium is reached the best solution found is output.
+
+
 ## Orthogonal variations
 
 The taxonomy above is fairly open for interpretation. Below are some thematic variations on this non-sealed categorization. The variations apply to all categories.
